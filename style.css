@@ -1,0 +1,135 @@
+*{
+  box-sizing: border-box;
+ }
+
+.header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 125px;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.header > * {
+  flex: 0.33;
+}
+
+.header button {
+  border-radius: 45px;
+  border: solid 2px #f25600;
+  padding: 11px 15px;
+
+
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  color: #f25600;
+}
+
+ .header img{
+   display: block;
+   width: 375px;
+   height: 75px;
+   object-fit: contain;
+ }
+
+ .home img {
+   width: 38px;
+   height: 38px;
+
+ }
+
+.button_group {
+
+  flex-wrap: nowrap;
+
+}
+
+button.home_button {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  padding: 10px 30px;
+  gap: 15px;
+
+}
+
+.home_button_text {
+  font-size: 34px;
+}
+
+
+.title {
+  width: 546px;
+  height: 81px;
+  margin: 210px 267px 170px;
+
+  /*font-family: NotoSansCJKkr;*/
+  font-size: 56px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.center {
+  width: 640px;
+  height: 672px;
+  margin: 170px 220px 120px;
+  padding: 60px 172px 40px;
+  border-radius: 24px;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.center_order_txt {
+  width: 195px;
+  height: 76px;
+  margin: 50px 50px 0px 51px;
+  font-size: 53px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+.center_order_num {
+  width: 296px;
+  height: 227px;
+  margin: 0 0 0;
+  /*font-family: Roboto;*/
+  font-size: 172px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.footer {
+  width: 786px;
+  height: 125px;
+  margin: 120px 147px 416px;
+  /*font-family: NotoSansCJKkr;*/
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.68;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
